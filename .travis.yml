@@ -38,7 +38,7 @@ before_install:
 # install dependencies
 install:
   # install Python packages
-  - pip install -U -e .[pandas]             # This installs all standard deps + pandas extras
+  - pip install -U -e .                     # This installs all standard deps
   - pip install -U -r requirements-dev.txt  # This installs development packages
 
 # run tests
